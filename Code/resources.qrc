@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/fshaderGouraud.glsl</file>
+        <file>resources/vshaderGouraud.glsl</file>
+        <file>resources/fshaderPhong.glsl</file>
+        <file>resources/vshaderPhong.glsl</file>
+        <file>resources/fshaderToon.glsl</file>
+        <file>resources/vshaderToon.glsl</file>
+        <file>resources/textures/2k_earth_clouds.jpg</file>
+        <file>resources/textures/2k_earth_daymap.jpg</file>
+        <file>resources/textures/2k_earth_nightmap.jpg</file>
+        <file>resources/textures/2k_earth_normal_map.tif</file>
+        <file>resources/textures/2k_earth_specular_map.tif</file>
+        <file>resources/textures/earth1.png</file>
+        <file>resources/textures/earth2.png</file>
+        <file>resources/textures/earth3.png</file>
+        <file>resources/textures/2k_jupiter.jpg</file>
+        <file>resources/textures/bricks.png</file>
+        <file>resources/textures/brick_wall2-diff-2048.png</file>
+        <file>resources/textures/brick_wall2-nor-2048.tif</file>
+        <file>resources/textures/2k_stars+milky_way.jpg</file>
+        <file>resources/fshaderEnvironmental.glsl</file>
+        <file>resources/vshaderEnvironmental.glsl</file>
+        <file>resources/textures/Earth-from-Space.jpg</file>
+    </qresource>
+</RCC>

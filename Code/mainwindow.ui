@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>533</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>533</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuModels">
+    <property name="title">
+     <string>Models</string>
+    </property>
+    <addaction name="action_obre_fitxer"/>
+    <addaction name="separator"/>
+    <addaction name="action_afegeix_llum_puntual"/>
+   </widget>
+   <widget class="QMenu" name="menuShaders">
+    <property name="title">
+     <string>Shaders</string>
+    </property>
+    <addaction name="action_gouraud"/>
+    <addaction name="action_phong"/>
+    <addaction name="action_toon"/>
+   </widget>
+   <widget class="QMenu" name="menuTextures">
+    <property name="title">
+     <string>Textures</string>
+    </property>
+    <addaction name="action_gouraud_tex"/>
+    <addaction name="action_phong_tex"/>
+    <addaction name="action_bump_mapping"/>
+    <addaction name="action_environmental_mapping"/>
+   </widget>
+   <addaction name="menuModels"/>
+   <addaction name="menuShaders"/>
+   <addaction name="menuTextures"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_phong">
+   <property name="text">
+    <string>Phong Shader</string>
+   </property>
+   <property name="toolTip">
+    <string>Activar Phong Shader</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+2</string>
+   </property>
+  </action>
+  <action name="action_gouraud">
+   <property name="text">
+    <string>Gouraud Shader</string>
+   </property>
+   <property name="toolTip">
+    <string>Activar Gouraud Shader</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+1</string>
+   </property>
+  </action>
+  <action name="action_toon">
+   <property name="text">
+    <string>Toon Shader</string>
+   </property>
+   <property name="toolTip">
+    <string>Activar Toon Shader</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+3</string>
+   </property>
+  </action>
+  <action name="action_obre_fitxer">
+   <property name="text">
+    <string>Obre Fitxer .obj</string>
+   </property>
+   <property name="toolTip">
+    <string>Obre Fitxer .obj</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="action_gouraud_tex">
+   <property name="text">
+    <string>GouraudTex</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+1</string>
+   </property>
+  </action>
+  <action name="action_phong_tex">
+   <property name="text">
+    <string>PhongTex</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+2</string>
+   </property>
+  </action>
+  <action name="action_bump_mapping">
+   <property name="text">
+    <string>Bump-mapping</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+3</string>
+   </property>
+  </action>
+  <action name="action_environmental_mapping">
+   <property name="text">
+    <string>Environmental-mapping</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+4</string>
+   </property>
+  </action>
+  <action name="action_afegeix_llum_puntual">
+   <property name="text">
+    <string>Llum Actual</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
