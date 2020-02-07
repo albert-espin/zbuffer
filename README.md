@@ -1,4 +1,4 @@
-# Z-BUffer Rendering System in OpenGL
+# Z-Buffer Rendering System in OpenGL
 
 OpenGL rendering system that builds a Z-Buffer model that supports triangle meshes, whose appearance is based on shaders (Gouraud, Blinn-Phong, Toon, Environmental), with the possibility of using textures, and effects such as bump mapping. Different light types are supported: Point Light, Directional Light and Spot Light.
 
